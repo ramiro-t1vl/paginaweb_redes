@@ -3,3 +3,22 @@
     justify-content: center;
     background-color: #00FFFF;
 }
+
+.Menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   }
+   
+.Menu {
+    float: left;
+}
+
+.Menu a {
+    display: block;
+    color: rgb(244, 229, 229);
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
