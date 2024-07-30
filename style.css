@@ -1,7 +1,13 @@
 .fotoinicio {
+    height: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     background-color: #00FFFF;
+}
+
+img {
+    height: auto;
+    width: auto;
 }
 
 .Menu {
