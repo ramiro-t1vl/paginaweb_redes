@@ -2,20 +2,83 @@
     height: 100px;
     display: flex;
     justify-content: right;
-    background-color: #00FFFF;
+    background-color: gray;
 }
 
 img {
     height: auto;
     width: auto;
+    background-color: #00FFFF;
 }
 
 .Menu {
+    background-color: grey;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    border-left: 2px solid #C0C0C0;
+    border-right: 2px solid #C0C0C0;
+    border-bottom: 2px solid #C0C0C0;
+    border-top: 2px solid #C0C0C0;
    }
+
+.uno {
+    border-left: 2px solid #C0C0C0;
+    border-right: 2px solid #C0C0C0;
+    border-bottom: 2px solid #C0C0C0;
+    border-top: 2px solid #C0C0C0;
+}
+
+.dos {
+    border-left: 2px solid #C0C0C0;
+    border-right: 2px solid #C0C0C0;
+    border-bottom: 2px solid #C0C0C0;
+    border-top: 2px solid #C0C0C0;
+}
+
+.tres {
+    border-left: 2px solid #C0C0C0;
+    border-right: 2px solid #C0C0C0;
+    border-bottom: 2px solid #C0C0C0;
+    border-top: 2px solid #C0C0C0;
+}
+
+.cuatro {
+    border-left: 2px solid #C0C0C0;
+    border-right: 2px solid #C0C0C0;
+    border-bottom: 2px solid #C0C0C0;
+    border-top: 2px solid #C0C0C0;
+}
+
+.cinco {
+    border-left: 2px solid #C0C0C0;
+    border-right: 2px solid #C0C0C0;
+    border-bottom: 2px solid #C0C0C0;
+    border-top: 2px solid #C0C0C0;
+}
+
+.seis {
+    border-left: 2px solid #C0C0C0;
+    border-right: 2px solid #C0C0C0;
+    border-bottom: 2px solid #C0C0C0;
+    border-top: 2px solid #C0C0C0;
+}
+
+.seite {
+    border-left: 2px solid #C0C0C0;
+    border-right: 2px solid #C0C0C0;
+    border-bottom: 2px solid #C0C0C0;
+    border-top: 2px solid #C0C0C0;
+}
+
+.ocho {
+    border-left: 2px solid #C0C0C0;
+    border-right: 2px solid #C0C0C0;
+    border-bottom: 2px solid #C0C0C0;
+    border-top: 2px solid #C0C0C0;
+}
+
    
 .Menu {
     float: left;
@@ -27,4 +90,8 @@ img {
     text-align: center;
     padding: 14px 50px;
     text-decoration: none;
+}
+
+.Nuestros {
+    background-color: grey;
 }
