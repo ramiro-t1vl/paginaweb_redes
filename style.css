@@ -1,18 +1,29 @@
+body {
+    background-color: black;
+
+    color: white;
+    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1303/Mercedes_Benz_Logo-Brand_advertising_HD_wallpaper_1366x768.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
 .fotoinicio {
     height: 100px;
     display: flex;
     justify-content: right;
-    background-color: gray;
+    
 }
 
 img {
     height: auto;
     width: auto;
-    background-color: #00FFFF;
+}
+
+nav {
+    text-align: center;
 }
 
 .Menu {
-    background-color: grey;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,78 +31,32 @@ img {
     border-left: 2px solid #C0C0C0;
     border-right: 2px solid #C0C0C0;
     border-bottom: 2px solid #C0C0C0;
-    border-top: 2px solid #C0C0C0;
-   }
+}
+
+.Menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
 
 .uno {
-    border-left: 2px solid #C0C0C0;
-    border-right: 2px solid #C0C0C0;
-    border-bottom: 2px solid #C0C0C0;
-    border-top: 2px solid #C0C0C0;
-}
-
-.dos {
-    border-left: 2px solid #C0C0C0;
-    border-right: 2px solid #C0C0C0;
-    border-bottom: 2px solid #C0C0C0;
-    border-top: 2px solid #C0C0C0;
-}
-
-.tres {
-    border-left: 2px solid #C0C0C0;
-    border-right: 2px solid #C0C0C0;
-    border-bottom: 2px solid #C0C0C0;
-    border-top: 2px solid #C0C0C0;
-}
-
-.cuatro {
-    border-left: 2px solid #C0C0C0;
-    border-right: 2px solid #C0C0C0;
-    border-bottom: 2px solid #C0C0C0;
-    border-top: 2px solid #C0C0C0;
-}
-
-.cinco {
-    border-left: 2px solid #C0C0C0;
-    border-right: 2px solid #C0C0C0;
-    border-bottom: 2px solid #C0C0C0;
-    border-top: 2px solid #C0C0C0;
-}
-
-.seis {
-    border-left: 2px solid #C0C0C0;
-    border-right: 2px solid #C0C0C0;
-    border-bottom: 2px solid #C0C0C0;
-    border-top: 2px solid #C0C0C0;
-}
-
-.seite {
-    border-left: 2px solid #C0C0C0;
-    border-right: 2px solid #C0C0C0;
-    border-bottom: 2px solid #C0C0C0;
-    border-top: 2px solid #C0C0C0;
-}
-
-.ocho {
-    border-left: 2px solid #C0C0C0;
-    border-right: 2px solid #C0C0C0;
-    border-bottom: 2px solid #C0C0C0;
-    border-top: 2px solid #C0C0C0;
-}
-
-   
-.Menu {
-    float: left;
-}
-
-.Menu a {
-    display: block;
-    color: rgb(244, 229, 229);
+    display: inline-block;
+    padding: 10px 15px;
     text-align: center;
-    padding: 14px 50px;
     text-decoration: none;
+    color: white;
+}
+
+.fondoU {
+    color: white;
+    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1303/Mercedes_Benz_Logo-Brand_advertising_HD_wallpaper_1366x768.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .Nuestros {
-    background-color: grey;
+    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1303/Mercedes_Benz_Logo-Brand_advertising_HD_wallpaper_1366x768.jpg);
+    background-size: auto;
+    color: white;
+    background-repeat: no-repeat;
+
 }
