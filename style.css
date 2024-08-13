@@ -60,3 +60,44 @@ nav {
     background-repeat: no-repeat;
 
 }
+
+a {
+    color: white;
+}
+
+.grid-sedan3 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.grid-sedan3 div{
+    max-width: 50vw;
+}
+
+.grid-sedan4 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.grid-sedan4 div img{
+    max-width: 40vw;
+}
+
+.grid-sedan4 div img{
+    max-width: 40vw;
+}
+
+.grid-sedan4 div{
+    max-width: 50vw;
+}
+div {
+    text-align: center;
+}
+
+.grid-sedan2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

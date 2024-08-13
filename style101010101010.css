@@ -1,0 +1,17 @@
+.contenedora {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+html {
+    background: url("https://i.ibb.co/0hv0gmk/fondo-Aliens-En-El-Espacio.png");
+}
+div {
+    text-align: center;
+}
+
+h1 {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
