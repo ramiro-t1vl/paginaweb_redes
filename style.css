@@ -1,10 +1,11 @@
 body {
     background-color: black;
-
+    
     color: white;
     background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1303/Mercedes_Benz_Logo-Brand_advertising_HD_wallpaper_1366x768.jpg);
     background-size: auto;
     background-repeat: no-repeat;
+    float: right;
 }
 
 .fotoinicio {
@@ -47,6 +48,7 @@ nav {
 }
 
 .fondoU {
+    float: right;
     color: white;
     background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1303/Mercedes_Benz_Logo-Brand_advertising_HD_wallpaper_1366x768.jpg);
     background-size: auto;
@@ -63,6 +65,15 @@ nav {
 
 a {
     color: white;
+}
+
+.grid-sedan1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-sedan1 div{
+    max-width: 50vw;
 }
 
 .grid-sedan3 {
@@ -100,4 +111,8 @@ div {
 .grid-sedan2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.primerauto {
+    float: right;
 }
