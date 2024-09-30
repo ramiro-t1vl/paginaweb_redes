@@ -1,118 +1,433 @@
+.conten {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.border-redondeado {
+  width: 900px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.text {
+  max-width: 400px;
+}
+
+@media (max-width: 1200px) {
+  .conten {
+    flex-direction: column;
+  }
+}
+
+.histor {
+  color: white;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.text {
+  max-width: 100%;
+
+}
+
+
+
 body {
-    background-color: black;
-    
-    color: white;
-    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1303/Mercedes_Benz_Logo-Brand_advertising_HD_wallpaper_1366x768.jpg);
-    background-size: auto;
-    background-repeat: no-repeat;
-    float: right;
-}
-
-.fotoinicio {
-    height: 100px;
-    display: flex;
-    justify-content: right;
-    
-}
-
-img {
-    height: auto;
-    width: auto;
-}
-
-nav {
-    text-align: center;
-}
-
-.Menu {
-    list-style-type: none;
+    font-family: 'Nunito', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    border-left: 2px solid #C0C0C0;
-    border-right: 2px solid #C0C0C0;
-    border-bottom: 2px solid #C0C0C0;
-}
+    background-color: #f0f0f0;
+  }
 
-.Menu li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.uno {
-    display: inline-block;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-}
-
-.fondoU {
-    float: right;
-    color: white;
-    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1303/Mercedes_Benz_Logo-Brand_advertising_HD_wallpaper_1366x768.jpg);
-    background-size: auto;
-    background-repeat: no-repeat;
-}
-
-.Nuestros {
-    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1303/Mercedes_Benz_Logo-Brand_advertising_HD_wallpaper_1366x768.jpg);
-    background-size: auto;
-    color: white;
-    background-repeat: no-repeat;
-
-}
-
-a {
-    color: white;
-}
-
-.grid-sedan1 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.grid-sedan1 div{
-    max-width: 50vw;
-}
-
-.grid-sedan3 {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.grid-sedan3 div{
-    max-width: 50vw;
-}
-
-.grid-sedan4 {
-    display: flex;
-    flex-wrap: wrap;
-
+.descr_nuestrosveh {
+  color: #FFFFFF;
 }
 
 
-.grid-sedan4 div img{
-    max-width: 40vw;
+
+p {
+  color: black;
 }
 
-.grid-sedan4 div img{
-    max-width: 40vw;
-}
-
-.grid-sedan4 div{
-    max-width: 50vw;
-}
-div {
-    text-align: center;
-}
-
-.grid-sedan2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.primerautop {
+  color: white;
 }
 
 .primerauto {
+  float: center;
+  }
+  
+  .contenedor2 {
+    background-color: #df9d5b;
+    padding: 10px 0;
+  }
+     
+  .contenedor2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+   
+   
+  .contenedor2 li {
+    margin: 0 10px;
+  }
+   
+   
+  .contenedor2 li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+     
+  .hTwo {
+    margin-left: auto;
+    font-weight: bold;
+    color: black;
+  }
+     
+  .hOne {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 36px;
+    color: #333;
+  }
+     
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 38.75%);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  
+
+   
+  .grid-item {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+     
+  .grid-item:hover {
+    transform: translateY(-5px);
+  }
+     
+  .grid-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+     
+  .car-info {
+    padding: 15px;
+  }
+     
+  .car-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+     
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
+   
+  .button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  .desc {
+    color: white;
+  }
+
+
+
+
+
+
+
+  .description {
+    background-color: #f8f9fa;
+    color: #333;
+    border: 2px solid #FFFFFF;
+  }
+  
+  .description:hover {
+    background-color: #e9ecef;
+  }
+
+
+
+
+     
+  .configure {
+    background-color: #BEBEBE;
+    color: white;
+  }
+     
+  .configure:hover {
+    background-color: #BEBEBE;
+  }
+   
+  .description {
+    background-color: #f8f9fa;
+    color: #333;
+    border: 2px solid #BEBEBE;
+  }
+     
+  .description:hover {
+    background-color: #e9ecef;
+  }
+     
+  @media (max-width: 992px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+   
+  @media (max-width: 576px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #df9d5b;
+    padding: 10px;
+  }
+   
+  .navbar .left {
+    display: flex;
+    gap: 20px;
+  }
+   
+  .navbar .center {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+   
+  .navbar .right {
+    display: flex;
+    gap: 15px;
+  }
+   
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  
+  .navbar a:hover{
+    transition:background-color 0.3s ease;
+  }
+   
+  .navbar button {
+    padding: 8px 16px;
+    background-color: white;
+    border: 2px solid #df9d5b;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #df9d5b;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+   
+  .navbar button:hover {
+    background-color: #e9ecef;
+  }
+  
+  
+  .f{
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  .logo{
+    width: 180px;
+    height: 120px;
+  }
+  
+  
+  .fondoU {
+    float: center;
+    color: white;
+    
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+     
+  .Nuestros {
+    
+    background-size: auto;
+    color: white;
+    background-repeat: no-repeat;  
+  }
+     
+  /*.grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+  .grid-item {
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+  .car-info {
+      padding: 15px;
+    }
+  .car-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 15px;
+      color: #333;
+    }
+  .button-container {
+      display: flex;
+      gap: 10px;
+    }
+  .button {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: background-color 0.3s ease;
+    }
+  .configure {
+      background-color: #df9d5b;
+      color: white;
+    }
+  .configure:hover {
+      background-color: #c78a4a;
+    }
+  .description {
+      background-color: #f8f9fa;
+      color: #333;
+      border: 2px solid #df9d5b;
+    }
+  .description:hover {
+    background-color: #e9ecef;
+  }
+  */
+  
+  body {
+    background-color: black;  
+    color: white;
+    
+    background-size: auto;
+    background-repeat: no-repeat;
     float: right;
-}
+  }
+  
+  
+  .fotoinicio {
+      height: 100px;
+      display: flex;
+      justify-content: right;
+     
+  }
+  
+  
+  img {
+      height: auto;
+      width: auto;
+  }
+  
+  
+  nav {
+      text-align: center;
+  }
+  
+  
+  .Menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      border-left: 2px solid #C0C0C0;
+      border-right: 2px solid #C0C0C0;
+      border-bottom: 2px solid #C0C0C0;
+      border-top: 2px solid #C0C0C0;
+  }
+  
+  
+  .Menu li {
+      display: inline-block;
+      margin-right: 20px;
+  }
+  
+  
+  .uno {
+      display: inline-block;
+      padding: 10px 15px;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+  }
+  
+  
+  .fondoU {
+      float: right;
+      color: white;
+      
+      background-size: auto;
+      background-repeat: no-repeat;
+  }
+  
+  
+  .Nuestros {
+      
+      background-size: auto;
+      color: white;
+      background-repeat: no-repeat;
+  
+  
+  }
+  
+  
+  a {
+      color: white;
+  }
